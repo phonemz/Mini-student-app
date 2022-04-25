@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.reg,.sign-in,.submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    padding: 40px;
+}
+
+.reg-form,.sign,.submit-form{
+    display: flex;
+    flex-direction: column;
+    border: #000 2px solid;
+    width: fit-content;
+    padding: 40px;
+    border-radius: 6px;
+}
+
+label{
+    margin: 20px 0 5px 0 ;
+}
+
+label:first-child{
+    margin-top: 0;
+}
+
+input, select{
+    width: 300px;
+    height: 30px;
+    outline: none;
+}
+
+.reg-btn,.sign-btn,.submit-btn{
+    width: 100px;
+    margin: 20px auto 0;
+    height: 30px;
+    background: #008080;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.date-select{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-select select{
+    width: 48%;
+}
+
+.submit{
+    margin-top: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background: #008080;
+    height: 8vh;
+    align-items: center;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dropdown{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+main{
+    display: flex;
+}
+
+.nav-panel{
+    width: 20%;
+    background: #008080;
+}
+
+.nav-panel div{
+    background: rgb(201, 201, 201);
+    color: #000;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.day h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.day{
+    padding: 20px;
+    border: #000 1px solid;
+    border-radius: 6px;
+}
+
+.main-section{
+    width: 100%;
+}
+
+.week{
+    margin: 40px 0;
+}
+
+.week h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.list-form{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+.profile-info{
+    position: absolute;
+    right: 0;
+    top: 10;
+    background: #fff;
+    z-index: 2;
+    border: #000 1px solid;
+    border-radius: 6px;
+    padding: 10px;
+    height: fit-content;
+}
+
+.profile-info h2{
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+
+.profile-info #type{
+    background-color: #008080;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 5px;
+    color: #fff;
+}
+
+hr{
+    margin-bottom: 5px;
+}
+
+.log-out{
+    display: flex;
+    align-items: center;
+}
+
+.log-out img{
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
